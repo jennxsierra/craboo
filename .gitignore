@@ -1,0 +1,17 @@
+# Go build artifacts
+*.out
+*.test
+
+# Binaries
+*.exe
+bin/
+
+# VSCode settings
+.vscode/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
