@@ -1,4 +1,4 @@
-module github.com/jennxsierra/craboo
+module github.com/jennxsierra/lab3-json-handlers
 
 go 1.25.6
 

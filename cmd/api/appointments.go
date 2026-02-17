@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/jennxsierra/craboo/internal/data"
+	"github.com/jennxsierra/lab3-json-handlers/internal/data"
 )
 
 // Handler to list all appointments (GET) and add new appointment (POST)
@@ -17,7 +17,7 @@ func (a *applicationDependencies) appointmentsHandler(w http.ResponseWriter, r *
 		if err != nil {
 			a.serverErrorResponse(w, r, err)
 		}
-	
+
 	// Perform decoding of incoming JSON data to create a new appointment
 	case http.MethodPost:
 		var input data.Appointment

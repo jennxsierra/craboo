@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/jennxsierra/craboo/internal/data"
+	"github.com/jennxsierra/lab3-json-handlers/internal/data"
 )
 
 // Handler to list all patients (GET) and add new patient (POST)
